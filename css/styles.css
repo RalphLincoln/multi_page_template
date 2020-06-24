@@ -1,0 +1,88 @@
+hr {
+    background-color: #001E48;
+    width: 20%;
+}
+
+.verticalLine {
+    border-right: 1px solid;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+.bord {
+    border-top: 1px solid #001E48;
+    border-bottom: 1px solid #001E48;
+    border-left: 1px solid #001E48;
+    border-right: 1px solid #001E48;
+    color: #001E48;
+    text-decoration: none;
+}
+
+.bord:hover {
+    background-color: #001E48;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ttt {
+    color: black;
+}
+
+.ttt:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+}
+
+.ggg:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    /* hr {
+        width: 60%;
+    } */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    hr {
+        width: 50%;
+    }
+
+    .h1-top {
+        font-size: 170%;
+    }
+
+    nav {
+        padding-bottom: 50px;
+    }
+
+    .home-img {
+        max-height: 300px;
+    }
+
+    .btn-pad {
+        padding-bottom: 30px;
+    }
+
+    .below {
+        border-bottom: 1px solid #001E48;
+    }
+}

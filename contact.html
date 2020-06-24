@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- This CSS link is for BOOTSTRAP -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <!-- This CSS link is my FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+    <!-- This CSS link is for my CUSTOM CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+
+    <title>Dynn Hotels</title>
+</head>
+
+<body>
+
+    <!-- NAVIGATION STARTS HERE  -->
+    <nav style=" background:rgba(0,0,0,0.5);" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="./index.html">
+            <img src="./images/logo.png" width="80" height="80" alt="" loading="lazy">
+        </a>
+        <button type="button" class="navbar-toggler text-white" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-dark navbar-toggler-icon text-white"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="ml-auto p-2 navbar-nav">
+                <li class="nav-item">
+                    <a class="font-weight-bold ggg pr-4 text-light nav-link" href="./index.html">HOME
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="font-weight-bold ggg pr-4 text-light nav-link" href="./facilities.html">FACILITIES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="font-weight-bold ggg pr-4 text-light nav-link" href="./contact.html">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="font-weight-bold ggg pr-4 text-light nav-link" href="./rooms.html">ROOMS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- NAVIGATION ENDS HERE -->
+
+
+
+
+    <!-- SPREAD IMAGE STARTS HERE -->
+    <div class="position-relative">
+        <img src="./images/test.jpg" style="max-height: 550px; background:rgba(0,0,0,0.5); width: 100%; opacity: 0.9;"
+            class="img-fluid" alt="Responsive image">
+        <div class="position-absolute" style=" top: 50%; left: 50%; transform: translate(-50%,
+                -50%);">
+            <h1 style="letter-spacing: 2px;" class="font-weight-bold display-4 h1-top text-white mx-auto">CONTACT US
+            </h1>
+        </div>
+    </div>
+    <!-- SPREAD IMAGE ENDS HERE -->
+
+    <div class="container">
+        <div class="text-center p-4">
+            <p class="font-weight-bold">We are excited to give you and your loved ones a wonderful experience</p>
+        </div>
+
+        <div class="mb-5 mx-auto">
+            <div class="row">
+                <div class="col-md-4 verticalLine btn-pad">
+                    <p>Email:</p>
+                    <span>example@example.com</span>
+                </div>
+                <div class="col-md-4 verticalLine btn-pad">
+                    <p>Phone Number:</p>
+                    <span>+44-2071838750</span>
+                </div>
+                <div class="col-md-4">
+                    <p>Address:</p>
+                    <span>112 2nd Street, Los Altos, California.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6 verticalLine">
+                <p style=" color: #001E48;">Please fill the form below</p>
+                <form action="">
+                    <input type="text" name="" placeholder="Name" class="form-control" id="">
+                    <input type=" text" name="" placeholder="Email Address" class="form-control mb-4 mt-4" id="">
+                    <textarea name="" placeholder="Message" class="form-control" id="" cols="30" rows="10"></textarea>
+                    <div class="text-right">
+                        <button class="btn mt-4 text-white" style="background-color: #001E48;">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 my-auto">
+                <p class="p-4">Follow us on social media</p>
+                <p><i class="fab fa-twitter fa-2x p-3"></i> Twitter: @dynn_hotel</p>
+                <p><i class="fab fa-facebook-square fa-2x p-3"></i> Facebook: dynnhotel</p>
+                <p><i class="fab fa-instagram-square fa-2x p-3"></i> Instagram: dynn_hotel</p>
+            </div>
+        </div>
+        <hr>
+
+        <h1 style="color: #001E48;" class="text-center pt-3">OUR LOCATION</h1>
+        <img src="./images/map.png" class="img-fluid py-5" alt="">
+    </div>
+
+
+    <!-- THIS IS THE START OF THE FOOTER SECTION -->
+
+    <footer class="text-white bg-dark">
+        <div class="row justify-content-between container">
+            <div class="pt-2 col-md-6">
+                <h6>Contact Us</h6>
+                <p>Email: example@example.com</p>
+                <p>Phone Number: +44-2071838750</p>
+                <p>Address: 112 2nd Street, Los Altos, California.</p>
+            </div>
+
+        </div>
+
+        <div class="text-center">
+            <p>Copyright 2020. @DynnHotel</p>
+            <p>All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+    <!-- THIS IS THE END OF THE FOOTER SECTION -->
+
+
+
+    <!-- The Scripts below are from bootstrap. They will enable some bootstrap performance -->
+    <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script src="js/bootstrap.bundle.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+
+</html>
